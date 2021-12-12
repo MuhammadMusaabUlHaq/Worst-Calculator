@@ -1,0 +1,40 @@
+*{
+    border: 2px solid black;
+}
+body{
+    background-color: rgb(221, 221, 221);
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.disp{
+    font-size: 15px;
+}
+.user{
+    font-size: 35px;
+}
+.buttons{
+    display: flex;
+}
+.operations{
+    display: flex;
+    flex-direction: column;
+}
+.numbers{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+.clear{
+    width: 45%;
+}
+.delete{
+    width: 45%;
+}
+button{
+    height: 100px;
+    width: 100px;
+}
